@@ -1,0 +1,857 @@
+/* 
+Project             : Raxio - Micro Freelancing Marketplace.
+Version             : 1.0
+Author              : Thesoftking
+Front-end developer : Mamunur Rashid 
+*/
+
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+  #banner {
+    background-position: 162% 0px;
+  }
+}
+
+@media (min-width: 1271px) and (max-width: 1400px) {
+  #banner {
+    background-position: 250% 0px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1270px) {
+  #banner {
+    background-position: 380% 0px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  #banner::before {
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: #000000b3;
+  }
+
+  #banner .header-content {
+    text-align: center;
+  }
+
+  #banner .header-content h1,
+  #banner .header-content p,
+  #banner .video p {
+    color: #fff;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #banner .header-content {
+    margin-top: 244px;
+  }
+
+  #w_like_us .wl-box {
+    width: 140px;
+    height: 140px;
+  }
+
+  #w_like_us .wl-box h3 {
+    font-size: 21px;
+  }
+
+  /* job catagori area start */
+  .catagoris #mybreadcrumb .breadcrumb_menu .nav-link {
+    font-size: 16px;
+    padding: 30px 11px;
+  }
+
+  .catagoris #catagoribody .mr_aside ul li a {
+    font-size: 16px;
+  }
+
+  /* job catagori area end */
+
+  /* portfolio area css start */
+
+  #profile .skill .body li a {
+    width: 118px;
+  }
+
+  /* portfolio area css End */
+
+  /* Dashbord css start  */
+  #dashbord .active_and_recent_gigs .tab_one .box3 i,
+  #dashbord .active_and_recent_gigs .tab_one .box3 p {
+    font-size: 12px;
+  }
+
+  #dashbord .active_and_recent_gigs .tab_one .box3 .Qty {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+
+  /* Dashbord css end  */
+
+  /* blog css start */
+  #mainblog .serch_box .my_form {
+    width: 79%;
+  }
+
+  /* blog css end */
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #about .box1 {
+    margin-top: 45px;
+  }
+
+  #catagories {
+    padding: 100px 0px 69px;
+  }
+
+  #w_like_us .right-text-content h2 {
+    margin-top: 35px;
+  }
+
+  #guidelines .g-box {
+    margin-bottom: 30px;
+  }
+
+  #footer .f-40 {
+    margin-top: 32px;
+  }
+
+  #banner .header-content {
+    margin-top: 244px;
+  }
+
+  /* job Catagori Area Start */
+  .catagoris #mybreadcrumb .breadcrumb_menu .navbar {
+    padding: 30px;
+    position: relative;
+  }
+
+  .catagoris #mybreadcrumb .navbar-collapse {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #fff;
+    z-index: 999;
+  }
+
+  .catagoris #mybreadcrumb .breadcrumb_menu .nav-item.active .nav-link::before {
+    width: 70%;
+    bottom: 0%;
+    left: 43%;
+  }
+
+  .catagoris #mybreadcrumb .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .0);
+    border-color: rgba(0, 0, 0, .0);
+  }
+
+  .catagoris #mybreadcrumb button:focus {
+    outline: 0px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+  }
+
+  .catagoris #catagoribody .mr_aside {
+    margin-top: 40px;
+  }
+
+  /* job Catagori Area End */
+
+  /* job Details Area Start */
+  .gig_details {
+    margin-top: 40px;
+  }
+
+  /* job Details Area End */
+
+  /* order Confirm Area Start */
+
+  #order_confirm .order_area {
+    margin-top: 40px;
+  }
+
+  /* order Confirm Area End */
+
+  /* profiole css start */
+  #mybreadcrumb .navbar-nav {
+    box-shadow: 0px 11px 20px rgba(0, 0, 0, 0.08);
+  }
+
+  #profile {
+    padding: 100px 0px 70px;
+  }
+
+  /* profiole css end */
+
+  /* Dashbord css start  */
+  #dashbord .tabtwo {
+    margin-top: 30px;
+  }
+
+  /* Dashbord css end  */
+
+  /* main blog css start */
+  #mainblog .serch_box {
+    margin-top: 40px;
+  }
+
+  /* main blog css end */
+  /* post a offer css start */
+  .offer #mybreadcrumb .breadcrumb_menu .nav-item.active .nav-link::before {
+    width: 70%;
+    bottom: 0%;
+    left: 50%;
+  }
+
+  /* post a offer css end */
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #about .box1 {
+    margin-top: 45px;
+  }
+
+  #aboutUs .about-img img {
+    margin-bottom: 40px;
+  }
+
+  #team .team_member {
+    padding: 0px 80px;
+  }
+
+  #catagories {
+    padding: 100px 0px 69px;
+  }
+
+  #w_like_us .right-text-content h2 {
+    margin-top: 35px;
+  }
+
+  #guidelines .g-box {
+    margin-bottom: 30px;
+  }
+
+  #footer .f-40 {
+    margin-top: 32px;
+  }
+
+  #w_like_us .wl-box.wl-box-1 {
+    margin-top: 0px;
+  }
+
+  #w_like_us .wl-box.wl-box-3 {
+    margin-top: 0px;
+  }
+
+  #w_like_us .wl-box.wl-box-4 {
+    margin-top: 0px;
+  }
+
+  #guidelines .g-box {
+    padding: 30px 15px;
+    border: 1px solid #707070;
+  }
+
+  #guidelines {
+    padding: 93px 0px 70px;
+  }
+
+  #feedback .owl-carousel .owl-item img {
+    display: inline-block;
+  }
+
+  #feedback .owl-carousel .owl-item img.mr-30 {
+    margin-right: 0px;
+  }
+
+  #feedback .feedback-slider .media {
+    display: flow-root;
+    text-align: center;
+  }
+
+  #feedback .feedback-slider .media-body {
+    padding: 40px 15px;
+  }
+
+  #feedback .media .reviewr-text {
+    padding-right: 0px;
+  }
+
+  #footer .footer-logo .f-bar {
+    width: 100%;
+  }
+
+  #banner .header-content {
+    margin-top: 235px;
+  }
+
+  #main-menu .navbar-collapse {
+    background: #000;
+  }
+
+  #main-menu .mamunur_rashid_top_book_btn {
+    margin-left: 15px;
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+
+  #main-menu .nav-link {
+    line-height: 27px;
+    font-weight: 500;
+  }
+
+  #main-menu .navbar-nav {
+    margin: 11px 0px 15px;
+  }
+
+  /* Login And Register Area Start  */
+  .reglog {
+    min-height: 975px;
+  }
+
+  .reglog .overlay {
+    min-height: 975px;
+  }
+
+  /* Login And Register Area End */
+  /* job Catagori Area Start */
+  .catagoris #mybreadcrumb .breadcrumb_menu .navbar {
+    padding: 30px;
+    position: relative;
+  }
+
+  .catagoris #mybreadcrumb .navbar-collapse {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #fff;
+    z-index: 999;
+  }
+
+  .catagoris #mybreadcrumb .breadcrumb_menu .nav-item.active .nav-link::before {
+    width: 70%;
+    bottom: 0%;
+    left: 43%;
+  }
+
+  .catagoris #mybreadcrumb .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .0);
+    border-color: rgba(0, 0, 0, .0);
+  }
+
+  .catagoris #mybreadcrumb button:focus {
+    outline: 0px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+  }
+
+  .catagoris #catagoribody .mr_aside {
+    margin-top: 40px;
+  }
+
+  #main-menu .navbar-toggler {
+    border: 0px;
+  }
+
+  .catagoris #main-menu .navbar-collapse {
+    background: #fff;
+  }
+
+  #main-menu .mamunur_rashid_top_book_btn {
+    margin-left: 10px;
+  }
+
+  /* job Catagori Area End */
+
+  /* job Details Area Start */
+  .gig_details {
+    margin-top: 40px;
+  }
+
+  /* job Details Area End */
+  #order_confirm .order_area {
+    margin-top: 40px;
+  }
+
+  /* order Confirm Area End */
+  /* profiole css start */
+  #mybreadcrumb .navbar-nav {
+    box-shadow: 0px 11px 20px rgba(0, 0, 0, 0.08);
+  }
+
+  #profile {
+    padding: 100px 0px 70px;
+  }
+
+  /* profiole css end */
+  /* offer post area Start */
+  #postaoffer4 .box {
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+
+  /* offer post area End */
+  /* Dashbord css start  */
+  #dashbord .tabtwo {
+    margin-top: 30px;
+  }
+
+  /* Dashbord css end  */
+
+  /* main blog css start */
+  #mainblog .serch_box {
+    margin-top: 40px;
+  }
+
+  #mainblog .blog_list .media img {
+    width: 230px;
+  }
+
+  /* main blog css end */
+
+  /* 404 css start */
+  #FortyFor .order-first img {
+    margin-bottom: 40px;
+  }
+
+  /* 404 css end */
+  /* post a offer css start */
+  .offer #mybreadcrumb .breadcrumb_menu .nav-item.active .nav-link::before {
+    left: 50%;
+  }
+
+  .morder #mybreadcrumb .breadcrumb_menu .nav-item.active .nav-link::before {
+    left: 46%;
+  }
+
+  /* post a offer css end */
+
+}
+
+
+
+@media (max-width: 575.98px) {
+  #about .box1 {
+    margin-top: 45px;
+  }
+
+  #team .team-img img {
+    width: 100%;
+  }
+
+  #aboutUs .about-img img {
+    margin-bottom: 40px;
+  }
+
+  #team .team_member {
+    padding: 0px 50px;
+  }
+
+  #catagories {
+    padding: 100px 0px 69px;
+  }
+
+  #w_like_us .right-text-content h2 {
+    margin-top: 35px;
+  }
+
+  #guidelines .g-box {
+    margin-bottom: 30px;
+  }
+
+  #footer .f-40 {
+    margin-top: 32px;
+  }
+
+  #w_like_us .wl-box.wl-box-1 {
+    margin-top: 0px;
+  }
+
+  #w_like_us .wl-box.wl-box-3 {
+    margin-top: 0px;
+  }
+
+  #w_like_us .wl-box.wl-box-4 {
+    margin-top: 0px;
+  }
+
+  #guidelines .g-box {
+    padding: 30px 15px;
+    border: 1px solid #707070;
+  }
+
+  #guidelines {
+    padding: 93px 0px 70px;
+  }
+
+  #feedback .owl-carousel .owl-item img {
+    display: inline-block;
+  }
+
+  #feedback .owl-carousel .owl-item img.mr-30 {
+    margin-right: 0px;
+  }
+
+  #feedback .feedback-slider .media {
+    display: flow-root;
+    text-align: center;
+  }
+
+  #feedback .feedback-slider .media-body {
+    padding: 40px 15px;
+  }
+
+  #feedback .media .reviewr-text {
+    padding-right: 0px;
+  }
+
+  #footer .footer-logo .f-bar {
+    width: 100%;
+  }
+
+  #footer .f-links li a {
+    font-size: 14px;
+  }
+
+  #footer .f-links h3 {
+    font-size: 18px;
+  }
+
+  #footer .f-links li p {
+    font-size: 14px;
+  }
+
+  #invite h2 {
+    font-size: 25px;
+  }
+
+  #w_like_us .right-text-content h2 {
+    font-size: 25px;
+  }
+
+  #about h2 {
+    font-size: 25px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .mr-btn-serch {
+    line-height: 38px;
+    padding: 0px 11px;
+    font-size: 14px;
+  }
+
+  #banner .header-content .form-inline input {
+    padding: 10px 10px;
+    display: inline-block;
+  }
+
+  #about h2,
+  #about .left-text-class,
+  #w_like_us .right-text-content {
+    text-align: center;
+  }
+
+  #main-menu .navbar-collapse {
+    background: #007bff;
+  }
+
+  #main-menu .mamunur_rashid_top_book_btn {
+    margin-left: 15px;
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+
+  #main-menu .nav-link {
+    line-height: 27px;
+    font-weight: 500;
+  }
+
+  #main-menu .navbar-nav {
+    margin: 11px 0px 15px;
+  }
+
+  #main-menu .navbar-brand {
+    margin-left: 15px;
+  }
+
+  #banner .header-content {
+    margin-top: 258px;
+  }
+
+  #profile {
+    padding: 100px 0px 70px;
+  }
+  #manageorder .mr_card .mr_card_body .title a {
+    width: 70%;
+}
+
+  /* Login And Register Area Start  */
+
+  .reglog {
+    min-height: 1160px;
+  }
+
+  .reglog .overlay {
+    min-height: 1160px;
+  }
+
+  #register .reg-box .mr_button2 {
+    margin-bottom: 15px;
+  }
+
+  .mr-d-block {
+    display: block !important;
+  }
+
+  .reglog #register .right {
+    padding-right: 30px;
+    margin-left: 30px;
+  }
+
+  /* Login And Register Area End */
+
+  /* job Catagori Area Start */
+  .catagoris #mybreadcrumb .breadcrumb_menu .navbar {
+    padding: 30px;
+    position: relative;
+  }
+
+  .catagoris #mybreadcrumb .navbar-collapse {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #fff;
+    z-index: 999;
+  }
+
+  .catagoris #mybreadcrumb .breadcrumb_menu .nav-item.active .nav-link::before {
+    width: 70%;
+    bottom: 0%;
+    left: 43%;
+  }
+
+  .catagoris #mybreadcrumb .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .0);
+    border-color: rgba(0, 0, 0, .0);
+  }
+
+  .catagoris #mybreadcrumb button:focus {
+    outline: 0px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+  }
+
+  .catagoris #catagoribody .mr_aside {
+    margin-top: 40px;
+  }
+
+  #main-menu .navbar-toggler {
+    border: 0px;
+  }
+
+  .catagoris #main-menu .navbar-collapse {
+    background: #fff;
+  }
+
+  #main-menu .mamunur_rashid_top_book_btn {
+    margin-left: 10px;
+  }
+
+  /* job Catagori Area End */
+  /* job Details Area Start */
+  .gig_details {
+    margin-top: 40px;
+  }
+
+  /* job Details Area End */
+  #order_confirm .order_area {
+    margin-top: 40px;
+  }
+
+  #order_confirm .gig_media .media {
+    display: flow-root;
+  }
+
+  #order_confirm .gig_media .media img {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  /* order Confirm Area End */
+  /* profiole css start */
+  #mybreadcrumb .navbar-nav {
+    box-shadow: 0px 11px 20px rgba(0, 0, 0, 0.08);
+  }
+
+  /* profiole css end */
+
+  /* offer post area Start */
+  #postaoffer4 .box {
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+
+  /* offer post area End */
+  /* Dashbord css start  */
+  #dashbord .tabtwo {
+    margin-top: 30px;
+  }
+
+  #dashbord .active_and_recent_gigs .mr_row {
+    display: flow-root !important;
+  }
+
+  #dashbord .active_and_recent_gigs .tab_one .box3 {
+    text-align: left;
+  }
+
+  #dashbord .active_and_recent_gigs .tab_one .box2 h5 {
+    margin-top: 15px;
+  }
+
+  #dashbord .active_and_recent_gigs .tab_one .box2 h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Dashbord css end  */
+
+  /* main blog css start */
+  #mainblog .serch_box {
+    margin-top: 40px;
+  }
+
+  #mainblog .blog_list .media {
+    display: flow-root;
+  }
+
+  #mainblog .blog_list .media img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #mainblog .pagination .page-item .page-link {
+    padding: 5px 15px;
+  }
+
+  #mainblog .serch_box .my_form {
+    width: 79%;
+  }
+
+  #mainblog .tags ul li a {
+    width: 117px;
+  }
+
+  .blogDetails .blog_detail_box .postAuthor .media {
+    display: flow-root;
+  }
+
+  .blogDetails .blog_detail_box .postAuthor .media img {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .blogDetails .blog_detail_box .postAuthor .media .media-body {
+    padding: 15px;
+  }
+
+  #jobdetails .gig_details .gig_title a h3 {
+    font-size: 20px;
+
+  }
+
+  /* main blog css end */
+  /* 404 css start */
+  #FortyFor .order-first img {
+    margin-bottom: 40px;
+  }
+
+  /* 404 css end */
+  /* post a offer css start */
+  .offer #mybreadcrumb .breadcrumb_menu .nav-item.active .nav-link::before {
+    left: 50%;
+  }
+
+  .morder #mybreadcrumb .breadcrumb_menu .nav-item.active .nav-link::before {
+    left: 46%;
+  }
+
+  /* post a offer css end */
+
+}
+
+
+@media (max-width: 518px) {
+  #banner .header-content {
+    margin-top: 245px;
+  }
+
+  #jobdetails .orderand_share .socal_link {
+    padding: 18px 15px;
+    margin-left: 10px;
+  }
+
+  #jobdetails .orderand_share .order_btn {
+    padding: 15px 11px;
+    font-size: 16px;
+  }
+
+  #jobdetails .orderand_share a i {
+    margin: 0px 2px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 366px) {
+  h1 {
+    font-size: 27px;
+  }
+
+  #banner .header-content p {
+    font-size: 14px;
+  }
+
+  #banner .header-content {
+    margin-top: 229px;
+  }
+
+  #banner .header-content .form-inline {
+    -webkit-display: grid;
+    -moz-display: grid;
+    display: grid;
+
+  }
+}
+
+@media (max-width: 339px) {
+  #banner .header-content {
+    margin-top: 218px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  #register .reg-box .mr_button {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 410px) {
+
+  #team .team_member {
+    padding: 0px 0px;
+  }
+
+}

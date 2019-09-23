@@ -1,0 +1,104 @@
+.reglog{
+  background: url(../img/login_reg/bg1.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  min-height: 953px;
+}
+.reglog .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  min-height: 953px;
+  background: rgba(32, 131, 243, 0.9);
+  }
+
+#register {
+  padding-top: 10px;
+}
+
+#register .reg-box {
+  background: #e6f0fc;
+}
+#register .reg-box .mamunur_rashid_form{
+  width: 100%;
+  background: #d5e6fb;
+  padding: 30px 15px 30px;
+  border: 0px;
+  margin-bottom: 20px;
+  color: #707070;
+}
+
+#register .reg-box  form{
+ padding: 30px 30px;
+}
+
+#register .reg-box  .mr_button{
+width: 100%;
+padding: 20px 10px 20px;
+background: #0d76ed;
+color: #fff;
+font-size: 20px;
+line-height: 25px;
+border: 2px solid #0d76ed;
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+-o-transition: all .3s;
+-ms-transition: all .3s;
+transition: all .3s;
+cursor: pointer;
+display: inline-block;
+font-weight: 400;
+text-align: center;
+}
+#register .reg-box  .mr_button:hover{
+  background: none;
+  color: #0d76ed;
+}
+#register .reg-box  .fb_tw{
+  padding: 30px 30px
+}
+#register .reg-box  .mr_button2{
+  background: #355598;
+  border: 2px solid #355598;
+}
+#register .reg-box  .mr_button3{
+  background: #1da1f2;
+  border: 2px solid #1da1f2;
+}
+#register .r-logo{
+ margin-bottom: 50px;
+}
+#register .nav-tabs .nav-item {
+  width: 50%;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+  border: 0px;
+  padding: 30px 0px;
+  border-radius: 0px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  background: #0d76ed;
+  color: rgb(221, 221, 221);
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: #2083f3;
+  border:0px solid  #dee2e600 ;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover{
+  border: 0px;
+}
+.reglog #register .left{
+  padding-left: 30px;
+}
+.reglog #register .right{
+  padding-right: 30px;
+}
+.reglog #register a{
+  font-weight: 400;
+}

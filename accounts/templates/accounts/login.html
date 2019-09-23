@@ -1,0 +1,166 @@
+{% load static %}
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Raxio - Micro Freelancing Marketplace</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="{% static 'img/fav.jpg'%}" type="image/x-icon">
+    <!--Google Font-->
+    <link href="{% static 'googleapis.css'%}" rel="stylesheet">
+    <!--Bootstrap Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css'%}">
+    <!--Main Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.min.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/logReg.css'%}">
+    <!-- Responsive  Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/responsive.css'%}">
+
+
+</head>
+
+<body class="body-class reglog">
+    {% block content %}
+    <div class="overlay"></div>
+    <!--Start Body Wrap-->
+    <div id="body-wrap">
+
+        <!-- ============ Register area start =============== -->
+
+        <section id="register">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center r-logo">
+                        <a href="{% url 'home' %}">
+                            <h2 style="color: #fff; font-weight: 400; font-family: sans-serif;">Myartblog</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="reg-box">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="worker-tab" data-toggle="tab" href="#worker" role="tab" aria-controls="worker"
+                                     aria-selected="true">
+                                        Sign In
+                                    </a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" id="buyer-tab" data-toggle="tab" href="#buyer" role="tab" aria-controls="buyer"
+                                     aria-selected="false">
+                                        As a Buyer
+                                    </a>
+                                </li> -->
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="worker" role="tabpanel" aria-labelledby="worker-tab">
+                                        <form action="{% url 'accounts:login'%}" method="post">
+                                            {% csrf_token %}   
+                                               <p>
+                                                <label for="id_username">Username:</label><br>
+                                                <input type="text" name="username" autofocus required id="id_username" class="mamunur_rashid_form">
+                                                
+                                              </p>
+                                            
+                                              <p>
+                                                <label for="id_password">Password:</label><br>
+                                                <input type="password" name="password" required id="id_password" class="mamunur_rashid_form">
+                                                
+                                              </p>
+                                    
+                                            <div class="form-group row mb-0">
+                                                    <div class="col-md-4 offset-md-4">
+                                                        <button type="submit" class="mr_button" style="text-align: center;">
+                                                            Login
+                                                        </button>
+                                                    </div>
+                                            </div>
+                                        </form>
+                                        <div class="row">
+                                        <div class="col d-flex justify-content-between  mr-d-block">
+                                            <div class="left">
+                                                <p>Not A Member Yet ? <a href="{% url 'accounts:signup'%}">Signup</a></p>
+                                            </div>
+                                            <div class="right">
+                                                <a href="#">Forget Password ?</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                    <!-- <div class="row fb_tw">
+                                        <div class="col-sm-6">
+                                            <a href="#" class="mr_button mr_button2">Register With Facebook</a>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <a href="#" class="mr_button mr_button3">Register With Facebook</a>
+                                        </div>
+                                    </div> -->
+
+                                </div>
+                                <div class="tab-pane fade" id="buyer" role="tabpanel" aria-labelledby="buyer-tab">
+                                    <form>
+                                        {%csrf_token%}
+                                        <div class="row">
+                                            <div class="col">
+                                                <input type="email" class="mamunur_rashid_form" placeholder="Your Email...">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <input type="password" class="mamunur_rashid_form" placeholder="Password...">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <button type="submit" class="mr_button">Register Now</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="row">
+                                        <div class="col d-flex justify-content-between mr-d-block">
+                                            <div class="left">
+                                                <p>Not A Member Yet ? <a href="{% url 'accounts:signup'%}">Register Now</a></p>
+                                            </div>
+                                            <div class="right">
+                                                <a href="#">Forget Password ?</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row fb_tw">
+                                        <div class="col-sm-6">
+                                            <a href="#" class="mr_button mr_button2">Register With Facebook</a>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <a href="#" class="mr_button mr_button3">Register With Facebook</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Register area start =============== -->
+
+
+        <!--Start ClickToTop-->
+        <div class="totop">
+            <a href="#top"><i class="fa fa-arrow-up"></i></a>
+        </div>
+        <!--End ClickToTop-->
+    </div>
+    <!--End Body Wrap-->
+    <!--jQuery JS-->
+    <script src="{% static 'js/jquery.2.1.2.min.js'%}"></script>
+    <!--Bootstrap JS-->
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+{% endblock%}
+</body>
+
